@@ -1,0 +1,32 @@
+.header {
+  font-family: "Roboto";
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+
+.ImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alignTextC {
+  text-align: center;
+}
+
+.image {
+  justify-self: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 90px;
+  width: 90px;
+}
+
+.actionBtnGrid {
+  margin-bottom: 20px;
+}
+
+.actionBtn {
+  min-height: 48px;
+  width: 186px;
+}

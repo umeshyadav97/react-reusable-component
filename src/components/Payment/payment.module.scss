@@ -1,0 +1,41 @@
+.formWidth {
+  width: 100%;
+}
+.cardInputs {
+  background: white;
+  height: 48px;
+  margin-bottom: 15px;
+  padding: 14px 2px 14px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(55, 37, 168, 0.25);
+}
+.ConfirmationText {
+  font-family: "Inter Regular" !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  color: #0a0d13;
+  text-align: center !important;
+}
+.payment_failure_text {
+  font-family: "Inter Regular" !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  color: #242424;
+}
+.closeIcon {
+  color: #242424;
+}
+.DialogCont {
+  color: #e5e5e5;
+}
+.gridHeight {
+  height: 100%;
+}
+.doDisturbIcon {
+  color: #f36666;
+  width: 60px;
+  height: 60px;
+}
+.gridWidth {
+  max-width: 740px;
+}

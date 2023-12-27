@@ -1,0 +1,62 @@
+.outer-box {
+    padding: 2rem;
+}
+
+.scene {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  perspective: 800px;
+}
+.scene .flipcard {
+  position: relative;
+  height: 300px;
+  color: #fff;
+  background-color: #c5001a;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+.scene .flipcard:hover {
+  transform: rotateY(0.5turn);
+}
+.scene .flipcard .flipcard__face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: 1s ease-in-out;
+}
+.scene .flipcard .flipcard__face--front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scene .flipcard .flipcard__face img {
+  height: 300px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.scene .flipcard .flipcard__face--back {
+  transform: rotateY(0.5turn);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 750px) {
+    .scene {
+        grid-template-columns: 1fr 1fr;
+    }
+   
+}
+@media (max-width: 400px) {
+    .scene {
+        grid-template-columns: 1fr;
+    }
+   
+}

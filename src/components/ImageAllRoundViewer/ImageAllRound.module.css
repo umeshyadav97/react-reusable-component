@@ -1,0 +1,13 @@
+.imageAllroundBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+@media (max-width: 400px) {
+    .imageAllroundBox {
+        grid-template-columns: 1fr;
+    }
+  }
+  

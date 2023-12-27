@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "resp": [
+      {
+        "albumId": 1,
+        "id": 1,
+        "title": "accusamus beatae ad facilis cum similique qui sunt",
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+        "status": [
+          {
+            "value": "Inactive",
+            "type": "button",
+            "color": "#d6cbd3"
+          },
+          {
+            "value": "Block",
+            "type": "button",
+            "color": "#c94c4c"
+          },
+          {
+            "value": "Active",
+            "type": "button",
+            "color": "#b5e7a0"
+          }
+        ]
+      },
+      {
+        "albumId": 1,
+        "id": 2,
+        "title": "reprehenderit est deserunt velit ipsam",
+        "url": "https://via.placeholder.com/600/771796",
+        "thumbnailUrl": "https://via.placeholder.com/150/771796",
+        "status": [
+          {
+            "value": "Inactive",
+            "type": "button",
+            "color": "#d6cbd3"
+          },
+          {
+            "value": "Block",
+            "type": "button",
+            "color": "#c94c4c"
+          }
+        ]
+      },
+      {
+        "albumId": 1,
+        "id": 1,
+        "title": "accusamus beatae ad facilis cum similique qui sunt",
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+        "status": [
+          {
+            "value": "Inactive",
+            "type": "button",
+            "color": "#d6cbd3"
+          },
+          {
+            "value": "Block",
+            "type": "button",
+            "color": "#c94c4c"
+          }
+        ]
+      },
+      {
+        "albumId": 1,
+        "id": 2,
+        "title": "reprehenderit est deserunt velit ipsam",
+        "url": "https://via.placeholder.com/600/771796",
+        "thumbnailUrl": "https://via.placeholder.com/150/771796",
+        "status": [
+          {
+            "value": "Inactive",
+            "type": "button",
+            "color": "#d6cbd3"
+          }
+        ]
+      },
+      {
+        "albumId": 1,
+        "id": 1,
+        "title": "accusamus beatae ad facilis cum similique qui sunt",
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+        "status": [
+          {
+            "value": "Inactive",
+            "type": "button",
+            "color": "#d6cbd3"
+          }
+        ]
+      },
+      {
+        "albumId": 1,
+        "id": 2,
+        "title": "reprehenderit est deserunt velit ipsam",
+        "url": "https://via.placeholder.com/600/771796",
+        "thumbnailUrl": "https://via.placeholder.com/150/771796",
+        "status": [
+          {
+            "value": "Inactive",
+            "type": "button",
+            "color": "#d6cbd3"
+          }
+        ]
+      }
+    ]
+  },
+
+  "error": null,
+  "message": "Users Data collected successfully",
+  "code": 200
+}

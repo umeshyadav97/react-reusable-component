@@ -1,0 +1,17 @@
+.containerCard {
+  margin: 10px;
+  height: 255px;
+  min-width: 90%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.image_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+}
